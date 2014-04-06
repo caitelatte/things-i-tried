@@ -1,0 +1,19 @@
+body {
+  padding-top: 50px;
+}
+footer {
+  text-align: center;
+}
+/* .explain-text is mostly used for text which is informative, such as all the explaining on index.html */
+.explain-text {
+  padding: 40px 15px;
+}
+/* lines which are referred/linked to. this is so that the fixed navbar doesn't override them. */
+.explain-text [id] {
+  padding-top: 65px;
+  margin-top: -65px;
+  display: inline-block; /* required for webkit browsers */
+}
+.explain-text h1 {
+  text-align: center;
+}
