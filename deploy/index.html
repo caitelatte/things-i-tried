@@ -21,7 +21,7 @@
     <![endif]-->
   </head>
   <body>
-    <!-- Fixed navbar based on boostrap examples -->
+    <!-- Fixed navbar based on bootstrap examples -->
     <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
@@ -50,10 +50,12 @@
 
     <div class="container" role="main">
         <div class="explain-text">
-            <h1 id="title">Welcome to <strong>Things I Tried</strong>!</h1>
+            <!-- Title/About -->
+            <h1 id="about">Welcome to <strong>Things I Tried</strong>!</h1>
             <br>
-            <p id="about"><strong>Things I Tried</strong> is a new website where you can look through interesting things that other people have tried.</p>
-            <br>
+            <p><strong>Things I Tried</strong> is a new website where you can look through interesting things that other people have tried.</p>
+
+            <!-- Sitemap -->
             <div>
                 <h4 id="sitemap">What things are on <strong>Things I Tried</strong>?</h4>
                 <p>At the moment, <strong>Things I Tried</strong> is still under development. It'll look much cooler in the future, as well as have a lot more content! Here are the pages at the moment though. Most of them are contained on this, the homepage.</p>
@@ -63,10 +65,10 @@
                     <a href="#contact" class="list-group-item">Feedback</a>
                 </div>
             </div>
+
+            <!-- Feedback Form -->
             <div>
-                <!-- Form Name -->
                 <h4 id="contact">How do I tell you how I feel about <strong>Things I Tried</strong>?</h4>
-                <br>
                 <p>Simple! Fill out the form below and send me an email with your comments. I've filled out a rough guide for comments but feel free to go outside it!</p>
                 <p>Please note that you need a mail client set up to use this form properly.</p>
                 <form class="form-horizontal" action="mailto:u5351248@anu.edu.au" method="post" enctype="text/plain">
@@ -85,7 +87,7 @@
                             <label class="control-label" for="feedback">Feedback</label>
                             <div>
                                 <textarea class="form-control" type="text" id="feedback" name="feedback" rows=10>Hi Caitlin!
-I think your website Things I Tried is pretty cool/bad. The things I appreciate/think you could improve are:
+I think your website Things I Tried is pretty cool/bad. The things I appreciate/think you could improve are: _______, _______ and ________.
 Thanks!</textarea>
                             </div>
                         </div>
@@ -104,9 +106,8 @@ Thanks!</textarea>
     </div>
 
     <footer>
-        <address>
-            Copyright 2014 <a href="mailto:u5351248@anu.edu.au">Caitlin Macleod</a>.
-        </address>
+        <p>Copyright 2014 <a href="mailto:u5351248@anu.edu.au">Caitlin Macleod</a>.</p>
+        <p><strong>Things I Tried</strong> is licensed under a CCO 1.0 Universal license.</p>
     </footer>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

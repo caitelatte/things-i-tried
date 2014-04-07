@@ -5,11 +5,18 @@ footer {
   text-align: center;
 }
 /* lines which are referred/linked to. this is so that the fixed navbar doesn't override them. */
+
+.explain-text h1 {
+  text-align: center;
+}
+.explain-text h4 [id],
 .explain-text h1 [id] {
   padding-top: 60px;
   margin-top: -60px;
   display: inline-block; /* required for webkit browsers */
 }
-.explain-text h1 {
-  text-align: center;
+/* sets the margins around forms inside the class .explain-text to have a margin of 15px to fit in with the rest of the content. */
+.explain-text form {
+  margin-left: 15px;
+  margin-right: 15px;
 }
