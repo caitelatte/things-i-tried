@@ -4,11 +4,11 @@ body {
 footer {
   text-align: center;
 }
-/* lines which are referred/linked to. this is so that the fixed navbar doesn't override them. */
-
+/* centers the big titles in .explain-text */
 .explain-text h1 {
   text-align: center;
 }
+/* title lines in .explain-text which are referred/linked to. this rule is so that the fixed navbar doesn't cover them. */
 .explain-text h4 [id],
 .explain-text h1 [id] {
   padding-top: 60px;
