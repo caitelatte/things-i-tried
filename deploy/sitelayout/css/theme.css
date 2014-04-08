@@ -4,14 +4,17 @@ body {
 footer {
   text-align: center;
 }
+footer p {
+  color: #4a2904;
+}
 /* centers the big titles in .explain-text */
 .explain-text h1 {
-  text-align: center;
+  padding-top: 60px;
+  margin-top: -60px;
+  display: inline-block; /* required for webkit browsers */
 }
 /* title lines in .explain-text which are referred/linked to. this rule is so that the fixed navbar doesn't cover them. */
-.explain-text #about,
 .explain-text #contact,
-.explain-text #title,
 .explain-text #sitemap {
   padding-top: 60px;
   margin-top: -60px;
@@ -21,4 +24,15 @@ footer {
 .explain-text form {
   margin-left: 15px;
   margin-right: 15px;
+}
+
+/* next two rules colour the headers and the strong words */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong{
+  color: #4a2904;
 }
