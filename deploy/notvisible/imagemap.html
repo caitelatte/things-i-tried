@@ -38,18 +38,28 @@
             <div class="navbar-collapse collapse" style="height: 1px;">
                 <ul class="nav navbar-nav">
                     <!-- link to different pages here -->
-                    <li> <a href="/index.html#">Home</a> </li>
-                    <li class="active"> <a href="photos.html">Photos</a> </li>
-                    <li> <a href="videos.html">Videos</a> </li>
+                    <li> <a href="../index.html#">Home</a> </li>
+                    <li> <a href="../pages/photos.html">Photos</a> </li>
+                    <li> <a href="../pags/videos.html">Videos</a> </li>
                 </ul>
             </div>
             <!--/.nav-collapse -->
         </div>
     </div>
 
-    <div class="container gallery explain-text" role="main">
-        <h1 class="navbar-proof" id="title">Welcome to the Photo Gallery</h1>
-        <h3>Hello</h3><br/>
+    <div class="container explain-text" role="main">
+        <h1 id="title" class="navbar-proof">Pictorial Guide to Things I Tried</h1>
+        <div class="panel panel-default">
+            <!-- Image Map -->
+            <div class="panel-body">
+                <img src="../images/imagemap.png" class="center-block img-responsive" alt="An image linking to the home page, videos page and photos page." usemap="#map" />
+                <map name="map">
+                    <area shape="rect" coords="268, 294, 618, 401" href="../index.html" alt="Home"/>
+                    <area shape="rect" coords="355, 202, 570, 272" href="../pages/photos.html" alt="Photos"/>
+                    <area shape="rect" coords="118, 199, 307, 262" href="../pages/videos.html" alt="Videos"/>
+                </map>
+            </div>
+        </div>
     </div>
 
     <footer>

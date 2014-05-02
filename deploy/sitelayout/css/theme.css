@@ -1,21 +1,32 @@
+Written by Caitlin Macleod 2014.
+/* puts some padding at the top of the body element */
 body {
   padding-top: 50px;
 }
+/* centers elements in the footer so that it looks better. */
 footer {
   text-align: center;
 }
+/* colors text within the footer. */
 footer p {
   color: #4a2904;
 }
-/* centers the big titles in .explain-text */
-.explain-text h1 {
-  padding-top: 60px;
-  margin-top: -60px;
-  display: inline-block; /* required for webkit browsers */
+
+/* next two rules colour the headers and the strong words */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+  color: #4a2904;
 }
+
 /* title lines in .explain-text which are referred/linked to. this rule is so that the fixed navbar doesn't cover them. */
 .explain-text #contact,
-.explain-text #sitemap {
+.explain-text #sitemap,
+.explain-text .navbar-proof {
   padding-top: 60px;
   margin-top: -60px;
   display: inline-block; /* required for webkit browsers */
@@ -26,13 +37,7 @@ footer p {
   margin-right: 15px;
 }
 
-/* next two rules colour the headers and the strong words */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-strong{
-  color: #4a2904;
+/* adds formatting to the gallery class */
+.gallery {
+  text-align: center;
 }
