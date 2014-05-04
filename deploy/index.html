@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Things I Tried</title>
 
+    <!-- My custom styles -->
+    <link href="sitelayout/css/theme.css" rel="stylesheet">
     <!-- Bootstrap core CSS -->
     <link href="sitelayout/css/bootstrap.css" rel="stylesheet">
     <!-- Bootstrap theme -->
     <link href="sitelayout/css/bootstrap-theme.css" rel="stylesheet">
-    <!-- My custom styles -->
-    <link href="sitelayout/css/theme.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -20,6 +20,7 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
+  
   <body>
     <!-- Fixed navbar based on bootstrap examples -->
     <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -47,62 +48,60 @@
         </div>
     </div>
 
-    <div class="container" role="main">
-        <div class="explain-text">
-            <!-- Title/About -->
-            <h1 id="navbar-proof">Welcome to <strong>Things I Tried</strong>!</h1>
-            <br>
-            <p><strong>Things I Tried</strong> is a new website where you can look through interesting things that other people have tried.</p>
+    <div class="container explain-text" role="main">
+        <!-- Title/About -->
+        <h1 class="navbar-proof" id="title">Welcome to <strong>Things I Tried</strong>!</h1>
+        <br>
+        <p><strong>Things I Tried</strong> is a new website where you can look through interesting things that other people have tried.</p>
 
-            <!-- Sitemap -->
-            <div>
-                <h4 id="sitemap">What things are on <strong>Things I Tried</strong>?</h4>
-                <p>At the moment, <strong>Things I Tried</strong> is still under development. It'll look much cooler in the future, as well as have a lot more content! Here are the pages at the moment though. Most of them are contained on this, the homepage.</p>
-                <div class="list-group">
-                    <a href="#" class="list-group-item">Home page</a>
-                    <a href="#sitemap" class="list-group-item">Sitemap</a>
-                    <a href="#contact" class="list-group-item">Feedback</a>
-                    <a href="pages/photos.html" class="list-group-item">Photos</a>
-                    <a href="pages/videos.html" class="list-group-item">Videos</a>
-                </div>
+        <!-- Sitemap -->
+        <div>
+            <h4 id="sitemap">What things are on <strong>Things I Tried</strong>?</h4>
+            <p>At the moment, <strong>Things I Tried</strong> is still under development. It'll look much cooler in the future, as well as have a lot more content! Here are the pages at the moment though. Most of them are contained on this, the homepage.</p>
+            <div class="list-group">
+                <a href="#" class="list-group-item">Home page</a>
+                <a href="#sitemap" class="list-group-item">Sitemap</a>
+                <a href="#contact" class="list-group-item">Feedback</a>
+                <a href="pages/photos.html" class="list-group-item">Photos</a>
+                <a href="pages/videos.html" class="list-group-item">Videos</a>
             </div>
+        </div>
 
-            <!-- Feedback Form -->
-            <div>
-                <h4 id="contact">How do I tell you how I feel about <strong>Things I Tried</strong>?</h4>
-                <p>Simple! Fill out the form below and send me an email with your comments. I've filled out a rough guide for comments but feel free to go outside it!</p>
-                <p>Please note that you need a mail client set up to use this form properly.</p>
-                <form class="form-horizontal" action="mailto:u5351248@anu.edu.au" method="post" enctype="text/plain">
-                    <fieldset>
+        <!-- Feedback Form -->
+        <div>
+            <h4 id="contact">How do I tell you how I feel about <strong>Things I Tried</strong>?</h4>
+            <p>Simple! Fill out the form below and send me an email with your comments. I've filled out a rough guide for comments but feel free to go outside it!</p>
+            <p>Please note that you need a mail client set up to use this form properly.</p>
+            <form class="form-horizontal" action="mailto:u5351248@anu.edu.au" method="post" enctype="text/plain">
+                <fieldset>
 
-                        <!-- Name-->
-                        <div class="form-group">
-                            <label class="control-label" for="sender-name">Your name</label>
-                            <div>
-                                <input id="sender-name" type="text" name="sender-name" placeholder="Name McNammus" class="form-control input-md">
-                            </div>
+                    <!-- Name-->
+                    <div class="form-group">
+                        <label class="control-label" for="sender-name">Your name</label>
+                        <div>
+                            <input id="sender-name" type="text" name="sender-name" placeholder="Name McNammus" class="form-control input-md">
                         </div>
+                    </div>
 
-                        <!-- Comments -->
-                        <div class="form-group">
-                            <label class="control-label" for="feedback">Feedback</label>
-                            <div>
-                                <textarea class="form-control" type="text" id="feedback" name="feedback" rows=10>Hi Caitlin!
+                    <!-- Comments -->
+                    <div class="form-group">
+                        <label class="control-label" for="feedback">Feedback</label>
+                        <div>
+                            <textarea class="form-control" type="text" id="feedback" name="feedback" rows=10>Hi Caitlin!
 I think your website Things I Tried is pretty cool/bad. The things I appreciate/think you could improve are: _______, _______ and ________. You can get back to me via my email address _______________ (optional).
 Thanks!</textarea>
-                            </div>
                         </div>
+                    </div>
 
-                        <!-- Submit Button -->
-                        <div class="form-group">
-                            <div>
-                                <button id="singlebutton" class="btn btn-primary" type="submit" value="send">Submit</button>
-                            </div>
+                    <!-- Submit Button -->
+                    <div class="form-group">
+                        <div>
+                            <button id="singlebutton" class="btn btn-primary" type="submit" value="send">Submit</button>
                         </div>
+                    </div>
 
-                    </fieldset>
-                </form>
-            </div>
+                </fieldset>
+            </form>
         </div>
     </div>
 
