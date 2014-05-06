@@ -360,7 +360,9 @@
     "@component-offset-horizontal": "180px"
   },
   "css": [
+    "print.less",
     "type.less",
+    "code.less",
     "grid.less",
     "tables.less",
     "forms.less",
@@ -371,8 +373,14 @@
     "navs.less",
     "navbar.less",
     "breadcrumbs.less",
+    "pagination.less",
+    "pager.less",
+    "labels.less",
     "badges.less",
+    "jumbotron.less",
     "thumbnails.less",
+    "alerts.less",
+    "progress-bars.less",
     "media.less",
     "list-group.less",
     "panels.less",
@@ -380,13 +388,12 @@
     "close.less",
     "component-animations.less",
     "dropdowns.less",
-    "utilities.less"
+    "tooltip.less",
+    "popovers.less",
+    "modals.less",
+    "carousel.less",
+    "utilities.less",
+    "responsive-utilities.less"
   ],
-  "js": [
-    "dropdown.js",
-    "affix.js",
-    "collapse.js",
-    "scrollspy.js",
-    "transition.js"
-  ]
+  "js": []
 }
